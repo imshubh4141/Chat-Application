@@ -23,12 +23,6 @@ const append = (message,position)=>{
         newMessageElement.classList.add('msg');
     newMessageElement.classList.add(position);
     messageDisplay.append(newMessageElement);
-
-    // newMessageElement.addEventListener('click',()=>{
-    //     const deleteBtn = document.createElement('button');
-    //     deleteBtn.value = "Delete Message";
-    //     newMessageElement.appendChild(deleteBtn);
-    // })
 }
 
 const name = prompt("enter your name");//will be username from login page
